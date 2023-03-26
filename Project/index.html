@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>ExactMatch</title>
+    <link rel="shortcut icon" href="Welcomeig.png" />
+    <link rel="stylesheet" href="index.css">
+    
+
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        var cot = 0;
+        function nex() {
+            if (cot <= 10000) {
+                $('.imgs img').eq(cot).animate({ 'margin-left': '-305px' }, 500);
+                cot++;
+            }
+        }
+        function pre() {
+            if (cot > 0) {
+                cot--;
+                $('.imgs img').eq(cot).animate({ 'margin-left': '0' }, 500);
+            }
+        } 
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="a1" href="Mainpage.html">Login</a>
+                <a class="a2" href="R.php">Register</a>
+            </div>
+
+            <div class="logo" id="main">
+                <img src="Welcomeig.png">
+                 <span style="font:italic 1em Georgia, serif;font-size:30px;cursor:pointer;color:black;" onclick="openNav()">&#9776; ExactMatch!</span>
+            </div>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                    document.body.style.backgroundColor = "white";
+                }
+            </script>
+
+
+
+            <ul>
+                <li><a href="Mainpage.html">Login</a></li>
+                <li><a href="R.php">Register</a></li>
+            </ul>
+        </nav>
+
+        <div style="margin-top: -100px;"></div>
+        <div class="content">
+            <h2>Recommend Dating</h2>
+        </div>
+
+        <style>
+            div.gallery {
+                margin-left: 4%;
+                margin-top: 20px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 20%;
+            }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            div.desc {
+                padding: 15px;
+                text-align: center;
+                color: white;
+            }
+        </style>
+
+        <div style="width:900px;margin:auto;overflow:hidden">
+            <div class="imgs" style="width:5000000px;">
+                <img src="handsome1.jpeg" />
+                <img src="handsome2.jpeg" />
+                <img src="handsome3.jpeg" />
+                <img src="handsome4.jpeg" />
+                <img src="handsome5.jpeg" />
+                <img src="girl6.jpeg" />
+                <img src="girl7.jpeg" />
+                <img src="girl8.jpeg" />
+                <img src="girl9.jpeg" />
+                <img src="girl10.jpeg" />
+                <img src="handsome6.jpeg" />
+                <img src="handsome7.jpeg" />
+                <img src="handsome8.jpeg" />
+                <img src="handsome9.jpeg" />
+                <img src="handsome10.jpeg" />
+                <img src="girl1.jpeg" />
+                <img src="girl2.jpeg" />
+                <img src="girl3.jpeg" />
+                <img src="girl4.jpeg" />
+                <img src="girl5.jpeg" />
+            </div>
+
+            <div>
+                <div class="Next" onclick="pre()" style="float:left;cursor:pointer">Back</div>
+                <div class="Next" onclick="nex()" style="float:right;cursor:pointer">Next</div>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>What is our goal ?</h2>
+            <div style="margin-top: -17px;"></div>
+            <ul>
+                <li>Exact Match!</li>
+                <br>
+                <li>Truth Experience!</li>
+                <br>
+                <li>Diversified choices!</li>
+                <br>
+                <li>Abundant Functions!</li>
+                <br>
+                <li>Excellent Navigation!</li>
+            </ul>
+            <br>
+            <br>
+            <h2>What is the function of ExactMatch ?</h2>
+            <ul>
+                <li>Humanized chat system.</li>
+                <br>
+                <li>Perfect registration process.</li>
+                <br>
+                <li>Users have a variety of choices.</li>
+                <br>
+                <li>Pay attention to protecting user privacy.</li>
+                <br>
+                <li>Accurately match according to different requirements.</li>
+                <br>
+                <li>A robust system for managing match lists (editing, deleting, blocking, etc.).</li>
+            </ul>
+            <br>
+            <h2>Some real reviews</h2>
+            <ul>
+                <li>This is the best dating site I've ever used and it made me find true love.</li>
+                <br>
+                <li>Be sure to try it, you won't regret it!</li>
+                <br>
+                <li>Me and my wife met here and I love this website.</li>
+                <br>
+                <li>There is nothing more beautiful than using it.</li>
+                <br>
+                <li>I love my girlfriend, thanks for the site contribution!</li>
+                <br>
+                
+            </ul>
+            <br>
+            <div class="links slide-left">
+                <a href="Mainpage.html" class="btn">Dont hesitate! Click Here&Start dating!</a>
+            </div>
+        </div>
+
+        <div class="down">
+            <a href="https://form.jotform.com/221164142268349" target="_blank" style="color: #ccc;"><img class="setupig"
+                    src="Contactig.png">Contact Us</a>
+        </div>
+        
+
+        <div style="margin-top: -50px;"></div>
+
+        <div class="footer">
+            <img src="Welcomeig.png" alt="Logo">
+            <p>Copyright © 2022 Group 05. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

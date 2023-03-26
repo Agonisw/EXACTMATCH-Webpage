@@ -1,0 +1,154 @@
+h4{
+color:white;
+text-align:center;
+}
+.head{
+ display : flex; 
+ color:white;
+}
+
+
+.menu {
+ background-image: url("b.jpg");
+  border: 0px ;
+     border-radius: 15px;
+  color: white;
+  padding: 5px;
+  width: 300px;
+
+}
+.menu:hover {
+  background-color: grey;
+}
+
+body { 
+  background-image: url("b.jpg");
+
+	} 
+
+ul {
+    z-index:1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ background-image: url("b.jpg");
+  position: fixed; 
+  border: 5px ;
+   border-radius: 15px;
+   border-style: inset;
+    top: 10px;
+	left:20px;
+}
+li {
+  text-align: center;
+  border-bottom: 2px solid white;
+  border-bottom-style:dashed;
+
+}
+
+li:first-child{
+  border-bottom: none;
+}
+
+li a, .dropbtn {
+ border-bottom: 2px solid black;
+  border-bottom-style:dashed;
+  display: block;
+  color: white;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+      border-radius: 20px;
+}
+
+li.dropdown {
+  display: inline-block;
+  border-radius: 20px;
+}
+
+
+
+.dropdown-content {
+  border-radius: 20px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+border-radius: 20px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container .btn:hover {
+border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+
+.contents {
+text-align: center;
+ background-color:white;
+  position: absolute;
+  top: 60px;
+   left: 10%;
+  right: 10%;
+ border-radius: 10px;
+  border: 10px ;
+  border-style: inset;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="shortcut icon" href="Welcomeig.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    
+</head>
+
+<body background="lm.jpg">
+
+    <div id="loginDiv">
+        <form action="Login.php" method="post" ">
+            <h1 style="text-align: center;color: aliceblue;">Welcome to our platform!</h1>
+            <p>UserID:&emsp;<input name="userid" type="text"><label id="userid"></label></p>
+
+            <p>Password:  <input name="password" type="password"><label id="password"></label></p>
+            
+            
+            <div style="text-align: center;margin-top: 30px;">
+                <input type="submit" class="button" value="login">
+                <input  type="button" onclick='location.href=("R.php")' value="registration" class="button">
+            </div>
+        </form>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.active4{
+    background-color: grey;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color:lightgrey;}
+.window {
+display : flex;
+}
+.conversation {
+
+text-align: center;
+ background-color:white;
+  position: absolute;
+  top: 85px;
+  right: 50px;
+  width: 430px;
+ border-radius: 20px;
+  border: 4px ;
+  border-style:dashed;
+}
+.h{
+display : flex;
+}
+.button {
+  background-color: #121803ec;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+
+  font-size: 16px;
+ border-radius: 5px;
+  width: 60px;
+
+}
+
+
+.button:hover {
+  background-color: grey;
+}
+
+
+
+table.message {
+  width: 100%;
+}
+
+.left{
+ text-align:left;
+}
+.right{
+ text-align:right;}
